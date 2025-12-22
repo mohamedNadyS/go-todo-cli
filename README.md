@@ -37,6 +37,10 @@ result could be like following table
 | 1 | do math homework | to-do | urgent | 2 hours ago | 2025-12-21 21:15:23 | |
 | 2 | collect 10000 trophy in clash royale | in-progress | important | 20 days ago | 2025-12-01 23:35:46 | |
 
+```bash
+show <filter>
+```
+filter can be status or priority so you can use (to-do, in-progress, done) as status filter, (urgent, important, routine, luxury) as priority filter. You can use only one filter
 ### remove task
 ---
 `remove` command removes task from the list by its ID (using show command to get IDs, it's auto increment)

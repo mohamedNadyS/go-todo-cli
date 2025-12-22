@@ -243,8 +243,8 @@ func main() {
 
 		case "show":
 			filter := ""
-			if len(splited) < 1 {
-				filter = splited[1]
+			if len(splited) > 1 {
+				filter = strings.ToLower(splited[1])
 			}
 			err := showTasks(filter)
 			if err != nil {
