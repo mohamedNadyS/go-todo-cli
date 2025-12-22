@@ -1,5 +1,5 @@
 # go-todo-cli
-A to-do list tool for terminal, you can add tasks, remvoe, check as done/inprogress, filter list, sorting
+A to-do list tool for terminal, you can add tasks, remvoe, check as done/inprogress, filter list.
 --
 ## Installing
 from releases you can download latest version "go-todo-cli.exe"
